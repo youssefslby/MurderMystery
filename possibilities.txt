@@ -1,0 +1,22 @@
+go
+go x
+go east
+go east
+go east
+take
+take x
+take doc's elixir
+drink
+drink x
+drink doc's elixir
+go west
+go south
+go east
+take beamer
+charge
+charge x
+charge beamer
+go west
+go south
+alea locomotive
+fire beamer

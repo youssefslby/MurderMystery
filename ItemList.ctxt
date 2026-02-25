@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ItemList
+comment0.text=\n\ Repr\u00E9sente\ une\ collection\ d'Items\ dans\ le\ jeu.\n\ Utilise\ une\ HashMap\ pour\ stocker\ et\ g\u00E9rer\ les\ items\ par\ leur\ nom.\n\n\ @author\ Youssef\ Shalaby\n\ @version\ finale\n
+comment1.params=
+comment1.target=ItemList()
+comment1.text=\n\ Constructeur\ qui\ initialise\ une\ liste\ d'items\ vide\n
+comment2.params=pName\ pItem
+comment2.target=void\ addItem(java.lang.String,\ Item)
+comment2.text=\n\ Ajoute\ un\ item\ \u00E0\ la\ liste\n\ @param\ pName\ Le\ nom\ de\ l'item\n\ @param\ pItem\ L'objet\ Item\ \u00E0\ ajouter\n
+comment3.params=pName
+comment3.target=Item\ getItem(java.lang.String)
+comment3.text=\n\ R\u00E9cup\u00E8re\ un\ item\ par\ son\ nom\n\ @param\ pName\ Le\ nom\ de\ l'item\ \u00E0\ r\u00E9cup\u00E9rer\n\ @return\ L'Item\ correspondant,\ ou\ null\ si\ non\ trouv\u00E9\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\n\ V\u00E9rifie\ si\ la\ liste\ est\ vide\n\ @return\ true\ si\ la\ liste\ ne\ contient\ aucun\ item,\ false\ sinon\n
+comment5.params=
+comment5.target=java.util.Set\ getKeys()
+comment5.text=\n\ Retourne\ l'ensemble\ des\ noms/cl\u00E9s\ des\ items\n\ @return\ Un\ Set\ contenant\ tous\ les\ noms\ d'items\n
+comment6.params=pName
+comment6.target=Item\ removeItem(java.lang.String)
+comment6.text=\n\ Supprime\ et\ retourne\ un\ item\ de\ la\ liste\n\ @param\ pName\ Le\ nom\ de\ l'item\ \u00E0\ supprimer\n\ @return\ L'Item\ supprim\u00E9,\ ou\ null\ si\ non\ trouv\u00E9\n
+numComments=7

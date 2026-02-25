@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\n\ Cette\ classe\ maintient\ la\ liste\ des\ commandes\ valides\ et\ directions\ valides\ du\ jeu.\n\ Elle\ permet\ de\ v\u00E9rifier\ si\ une\ commande\ ou\ direction\ entr\u00E9e\ par\ le\ joueur\ est\ reconnue.\n\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\ +\ D.Bureau\ +\ Youssef\ Shalaby\n\ @version\ 2008.03.30\ +\ 2019.09.25\ +\ 2025.05.17\n
+comment1.params=
+comment1.target=CommandWords()
+comment1.text=\n\ Constructeur\ de\ la\ classe\ CommandWords\n
+comment2.params=pString
+comment2.target=boolean\ isCommand(java.lang.String)
+comment2.text=\n\ V\u00E9rifie\ si\ une\ cha\u00EEne\ correspond\ \u00E0\ une\ commande\ valide\n\ @param\ pString\ La\ cha\u00EEne\ \u00E0\ v\u00E9rifier\n\ @return\ true\ si\ la\ cha\u00EEne\ est\ une\ commande\ valide,\ false\ sinon\n
+comment3.params=pString
+comment3.target=boolean\ isDirections(java.lang.String)
+comment3.text=\n\ V\u00E9rifie\ si\ une\ cha\u00EEne\ correspond\ \u00E0\ une\ direction\ valide\n\ @param\ pString\ La\ cha\u00EEne\ \u00E0\ v\u00E9rifier\n\ @return\ true\ si\ la\ cha\u00EEne\ est\ une\ direction\ valide,\ false\ sinon\n
+comment4.params=
+comment4.target=java.lang.String\ getCommandList()
+comment4.text=\n\ Retourne\ la\ liste\ des\ commandes\ valides\ sous\ forme\ de\ cha\u00EEne\n\ @return\ Une\ cha\u00EEne\ contenant\ toutes\ les\ commandes\ valides\ s\u00E9par\u00E9es\ par\ des\ espaces\n
+numComments=5

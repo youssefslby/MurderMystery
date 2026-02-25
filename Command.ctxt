@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\n\ Repr\u00E9sente\ une\ commande\ utilisateur.\n\ Une\ commande\ est\ compos\u00E9e\ d'un\ mot\ de\ commande\ principal,\n\ \u00E9ventuellement\ d'un\ second\ mot,\ et\ du\ reste\ de\ la\ ligne\ car\ quelques\ items\ \n\ ont\ plusieurs\ mots.\n\ \n\ @author\ Youssef\ Shalaby\n\ @version\ finale\n
+comment1.params=pCommandWord\ pSecondWord\ pRestOfLine
+comment1.target=Command(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructeur\ de\ Command\n\ @param\ pCommandWord\ Le\ mot\ de\ commande\ principal\ (ex\:\ "go")\n\ @param\ pSecondWord\ Le\ deuxi\u00E8me\ mot\ de\ la\ commande\ (ex\:\ "north")\n\ @param\ pRestOfLine\ Le\ reste\ de\ la\ ligne\ apr\u00E8s\ le\ premier\ mot\n
+comment2.params=
+comment2.target=java.lang.String\ getRestOfLine()
+comment2.text=\n\ Retourne\ le\ reste\ de\ la\ ligne/commande\ apr\u00E8s\ le\ premier\ mot\n\ @return\ Le\ texte\ restant\ apr\u00E8s\ le\ premier\ mot\n
+comment3.params=
+comment3.target=java.lang.String\ getCommandWord()
+comment3.text=\n\ Retourne\ le\ mot\ de\ commande\ principal\n\ @return\ Le\ premier\ mot\ de\ la\ commande\n
+comment4.params=
+comment4.target=java.lang.String\ getSecondWord()
+comment4.text=\n\ Retourne\ le\ deuxi\u00E8me\ mot\ de\ la\ commande\n\ @return\ Le\ second\ mot\ de\ la\ commande,\ ou\ null\ si\ absent\n
+comment5.params=
+comment5.target=boolean\ hasSecondWord()
+comment5.text=\n\ V\u00E9rifie\ si\ la\ commande\ contient\ un\ deuxi\u00E8me\ mot\n\ @return\ true\ si\ un\ deuxi\u00E8me\ mot\ est\ pr\u00E9sent,\ false\ sinon\n
+comment6.params=
+comment6.target=boolean\ isUnknown()
+comment6.text=\n\ V\u00E9rifie\ si\ la\ commande\ est\ inconnue\n\ @return\ true\ si\ la\ commande\ n'est\ pas\ reconnue,\ false\ sinon\n
+numComments=7

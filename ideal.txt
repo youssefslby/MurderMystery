@@ -1,0 +1,13 @@
+take fountain pen
+go east
+take handkerchief
+go north
+take broken watch
+go south
+go east
+take bloody knife
+go south 
+take poisoned wine glass
+go east
+take wayne key
+2

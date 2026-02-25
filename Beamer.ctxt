@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Beamer
+comment0.text=\n\ Un\ Beamer\ est\ un\ item\ qui\ peut\ m\u00E9moriser\ une\ pi\u00E8ce\n\ et\ permettre\ au\ joueur\ de\ s'y\ t\u00E9l\u00E9porter.\n\ H\u00E9rite\ de\ la\ classe\ Item.\n\n\ @author\ Youssef\ Shalaby\n\ @version\ finale\n
+comment1.params=pName\ pDescription\ pWeight
+comment1.target=Beamer(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\n\ Constructeur\ du\ Beamer\n\ @param\ pName\ Nom\ du\ Beamer\n\ @param\ pDescription\ Description\ du\ Beamer\n\ @param\ pWeight\ Poids\ du\ Beamer\ en\ kg\n
+comment2.params=
+comment2.target=Room\ getChargedRoom()
+comment2.text=\n\ Retourne\ la\ pi\u00E8ce\ m\u00E9moris\u00E9e\ par\ le\ Beamer\n\ @return\ La\ pi\u00E8ce\ charg\u00E9e,\ et\ null\ si\ le\ Beamer\ n'est\ pas\ charg\u00E9\n
+comment3.params=pRoom
+comment3.target=void\ setChargedRoom(Room)
+comment3.text=\n\ Charge\ le\ Beamer\ avec\ une\ pi\u00E8ce\ sp\u00E9cifique\n\ @param\ pRoom\ La\ pi\u00E8ce\ \u00E0\ m\u00E9moriser\ pour\ la\ t\u00E9l\u00E9portation\n
+comment4.params=
+comment4.target=boolean\ BeamerCharged()
+comment4.text=\n\ V\u00E9rifie\ si\ le\ Beamer\ est\ charg\u00E9\ et\ pr\u00EAt\ \u00E0\ \u00EAtre\ utilis\u00E9\n\ @return\ true\ si\ le\ Beamer\ contient\ une\ pi\u00E8ce\ m\u00E9moris\u00E9e,\ false\ sinon\n
+numComments=5

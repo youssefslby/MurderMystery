@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\n\ Une\ salle\ sp\u00E9ciale\ qui\ permet\ de\ se\ t\u00E9l\u00E9porter\ al\u00E9atoirement\ vers\ d'autres\ salles.\n\ H\u00E9rite\ de\ la\ classe\ Room\ et\ ajoute\ des\ fonctionnalit\u00E9s\ de\ t\u00E9l\u00E9portation\ al\u00E9atoire.\n\n\ @author\ Youssef\ Shalaby\n\ @version\ finale\n
+comment1.params=pDescription\ pImageName
+comment1.target=TransporterRoom(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructeur\ de\ TransporterRoom\n\ @param\ pDescription\ Description\ de\ la\ salle\n\ @param\ pImageName\ Nom\ du\ fichier\ image\ associ\u00E9\ \u00E0\ la\ salle\n
+comment2.params=pRooms
+comment2.target=void\ setExitRooms(Room[])
+comment2.text=\n\ D\u00E9finit\ les\ salles\ accessibles\ par\ t\u00E9l\u00E9portation\n\ @param\ pRooms\ Tableau\ des\ salles\ de\ destination\ possibles\n
+comment3.params=
+comment3.target=Room\ getRandomRoom()
+comment3.text=\n\ S\u00E9lectionne\ et\ retourne\ une\ salle\ de\ destination\ al\u00E9atoire\n\ @return\ Une\ salle\ choisie\ al\u00E9atoirement\ parmi\ les\ destinations\ possibles,\ ou\ la\ salle\ actuelle\n
+numComments=4

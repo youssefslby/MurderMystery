@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\ \n\ Analyseur\ de\ commandes\ qui\ interpr\u00E8te\ les\ entr\u00E9es\ utilisateur.\n\ Lit\ une\ ligne\ de\ texte\ et\ tente\ de\ la\ d\u00E9composer\ en\ commande\ valide.\n\ Retourne\ un\ objet\ Command\ contenant\ la\ commande\ interpr\u00E9t\u00E9e.\n\ \n\ Le\ parser\ maintient\ une\ liste\ de\ commandes\ valides\ et\ v\u00E9rifie\n\ si\ l'entr\u00E9e\ utilisateur\ correspond\ \u00E0\ l'une\ d'entre\ elles.\n\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\ +\ D.Bureau\ +\ Youssef\ Shalaby\n\ @version\ 2008.03.30\ +\ 2013.09.15\ +\ 2025.05.17\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\n\ Constructeur\ qui\ initialise\ le\ parser\ avec\ les\ commandes\ valides\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandString()
+comment2.text=\n\ Retourne\ la\ liste\ des\ commandes\ valides\ sous\ forme\ de\ String\n\ @return\ Une\ cha\u00EEne\ \n
+numComments=3
